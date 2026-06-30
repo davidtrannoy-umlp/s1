@@ -1,0 +1,57 @@
+site_name: Découverte de WordPress
+site_description: Support de cours - BUT Information-Communication
+site_author: David
+
+theme:
+  name: material
+  language: fr
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-night
+        name: Passer en mode sombre
+    - scheme: slate
+      primary: indigo
+      accent: indigo
+      toggle:
+        icon: material/weather-sunny
+        name: Passer en mode clair
+  features:
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.indexes
+    - search.suggest
+    - search.highlight
+    - content.code.copy
+  icon:
+    repo: fontawesome/brands/github
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - toc:
+      permalink: true
+  - tables
+  - attr_list
+
+nav:
+  - Accueil: index.md
+  - 1. Découverte du CMS:
+      - Vue d'ensemble: 01-decouverte/index.md
+      - Qu'est-ce qu'un CMS: 01-decouverte/cms.md
+      - Pourquoi WordPress: 01-decouverte/pourquoi-wordpress.md
+  - 2. Installation:
+      - Vue d'ensemble: 02-installation/index.md
+      - Pré-requis serveur: 02-installation/prerequis.md
+      - Installer WordPress: 02-installation/installation.md
+  - 3. Thèmes:
+      - Vue d'ensemble: 03-themes/index.md
+  - 4. Plugins:
+      - Vue d'ensemble: 04-plugins/index.md
+  - 5. Travaux pratiques:
+      - TP1 - Premier site: 05-tp/tp1.md
