@@ -29,4 +29,4 @@ Cette séparation permet à un rédacteur de publier un article sans toucher au 
 - WordPress (le plus répandu, environ 40% des sites web dans le monde)
 - Drupal
 - Joomla
-- Des CMS plus récents orientés "headless" comme Strapi ou Contentful
+- Des CMS dédiés au e-commerce : Prestashop, Shopify, Magento
